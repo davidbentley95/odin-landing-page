@@ -12,6 +12,8 @@ body {
 
 section {
     display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .section-one, .section-two, .section-six {
