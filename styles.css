@@ -5,45 +5,24 @@
     outline: auto;
 }
 
-body {
-    font-family: Roboto, sans-serif;
-    padding: 0 200px;
-    background-color: black;
-}
-
-section {
-    display: flex;
-    width: 100%;
-}
+/* Generic styling (colors, sizes, etc) */
 
 .section-one, .section-two, .section-six {
     background-color: #1F2937;
     color: white;
 }
 
-.sign-up-button {
-    background-color: #3882f6;
-    color: white;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    flex: 1;
-    justify-content: space-between;
-}
-
-a {
-    text-decoration: none;
-    color: white;
+.section-three, .section-five {
+    background-color: white;
 }
 
 .section-four {
     background-color: #E5E7EB;
 }
 
-.section-three, .section-five {
-    background-color: white;
+.sign-up-button {
+    background-color: #3882f6;
+    color: white;
 }
 
 .hero-text {
@@ -78,3 +57,43 @@ a {
     font-style: italic;
     font-weight: 300;
 }
+
+body {
+    font-family: Roboto, sans-serif;
+    padding: 0 200px;
+    background-color: black;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* Header Formatting */
+
+.header {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Section 2 formatting */
+
+
+
+
+
