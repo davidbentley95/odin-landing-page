@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: auto;
 }
 
 /* Generic styling (colors, sizes, etc) */
@@ -47,10 +46,6 @@
 .header-title {
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.call-to-action {
-    background-color: #3882f6;
 }
 
 .information-header-text {
@@ -118,10 +113,32 @@ a {
 /* Section 3 formatting */
 
 .icon-box {
-    height: 150px;
-    width: 150px;
+    height: 175px;
+    width: 175px;
     border: 4px #3882F6 solid;
     border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.section-three {
+    flex-direction: column;
+}
+
+.card-deck {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 175px;
+}
+
+.information-header-text {
+    margin: 50px 0;
 }
 
 /* Section 4 formatting */
@@ -137,4 +154,29 @@ a {
     text-align: right;
     font-size: 24px;
     font-weight: 900;
+}
+
+/* Section 5 formatting */
+
+.section-five {
+    height: 350px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.action-header {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.call-to-action>button {
+    border-color: white;
 }
