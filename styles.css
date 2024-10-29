@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    outline: auto;
 }
 
 /* Generic styling (colors, sizes, etc) */
@@ -115,8 +115,13 @@ a {
     margin-left: 20px;
 }
 
+/* Section 3 formatting */
 
-
-
+.icon-box {
+    height: 150px;
+    width: 150px;
+    border: 4px #3882F6 solid;
+    border-radius: 10px;
+}
 
 
