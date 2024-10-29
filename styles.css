@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: auto;
+
 }
 
 /* Generic styling (colors, sizes, etc) */
@@ -10,10 +10,12 @@
 .section-one, .section-two, .section-six {
     background-color: #1F2937;
     color: white;
+    align-items: center;
 }
 
 .section-three, .section-five {
     background-color: white;
+    align-items: center;
 }
 
 .section-four {
@@ -23,17 +25,23 @@
 .sign-up-button {
     background-color: #3882f6;
     color: white;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 35px;
+    border-radius: 10px;
 }
 
 .hero-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    padding-bottom: 10px;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 10px;
 }
 
 .header-title {
@@ -92,6 +100,21 @@ a {
 }
 
 /* Section 2 formatting */
+
+.section-two, .section-three, .section-four{
+    height: 450px;
+}
+
+.img-placeholder {
+    height: 240px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d646e;
+    margin-left: 20px;
+}
+
 
 
 
