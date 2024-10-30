@@ -97,7 +97,8 @@ a {
 /* Section 2 formatting */
 
 .section-two, .section-three, .section-four{
-    height: 450px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .img-placeholder {
@@ -127,6 +128,7 @@ a {
 .card-deck {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -146,20 +148,25 @@ a {
 .section-four {
     flex-direction: column;
     justify-content: center;
-    padding-left: 325px;
-    padding-right: 325px;
 }
 
 .quote-author {
     text-align: right;
     font-size: 24px;
     font-weight: 900;
+    padding-right: 140px;
+}
+
+.quote {
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 /* Section 5 formatting */
 
 .section-five {
-    height: 350px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .call-to-action {
