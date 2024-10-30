@@ -180,3 +180,13 @@ a {
 .call-to-action>button {
     border-color: white;
 }
+
+/* Section 6 formatting (footer) */
+
+.section-six {
+    justify-content: center;
+}
+
+.footer {
+    padding: 40px;
+}
